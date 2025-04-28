@@ -361,3 +361,23 @@ h1, h2, h3 {
 .info-card:hover, .btn-contact:hover {
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><circle cx="6" cy="6" r="6" fill="black"/></svg>') 6 6, auto;
 }
+.horizontal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.horizontal-list span {
+  font-size: 17px;
+  font-weight: 300;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: background 0.3s;
+}
+
+.horizontal-list span:hover {
+  background: #f2f2f2;
+}
