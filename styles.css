@@ -307,4 +307,20 @@
       text-align: center;
     }
   }
-  
+  .contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.btn-contact.insta {
+  border-color: #C13584;
+  color: #C13584;
+}
+
+.btn-contact.insta:hover {
+  background: #C13584;
+  color: #ffffff;
+}
+
